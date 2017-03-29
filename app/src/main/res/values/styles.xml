@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- 继续按钮样式 -->
+    <style name="continue_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_background_ack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@mipmap/go_continue</item>
+    </style>
+
+    <!-- 左边按钮样式 -->
+    <style name="left_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@drawable/selector_background_ack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@drawable/go_back</item>
+    </style>
+
+    <!-- 右边按钮样式 -->
+    <style name="right_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">28dp</item>
+        <item name="android:background">@drawable/selector_background_ack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@drawable/go_back</item>
+        <item name="android:contentDescription">@string/content_description</item>
+    </style>
+
+    <string name="content_description">找不到图片</string>
+</resources>

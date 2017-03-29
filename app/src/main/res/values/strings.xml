@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">海珀支付</string>
+    <string name="paySuccessed">支付成功</string>
+    <string name="payFail">支付失败</string>
+
+</resources>
